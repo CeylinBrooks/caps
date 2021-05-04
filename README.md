@@ -20,7 +20,7 @@ i.e.
 
 - `PORT` - 3333
 - `MONGODB_URI` - URL to the running mongo instance/db
-- Pull Request: 
+- (Pull Request)[https://github.com/CeylinBrooks/caps/pull/2]
 
 #### How to initialize/run your application (where applicable)
 
