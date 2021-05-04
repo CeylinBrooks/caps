@@ -1,0 +1,19 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "\"401JS-Lab11\"",
+  "main": "caps.js",
+  "scripts": {
+    "test": "it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeylinBrooks/caps.git"
+  },
+  "author": "C.Brooks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CeylinBrooks/caps/issues"
+  },
+  "homepage": "https://github.com/CeylinBrooks/caps#readme"
+}
