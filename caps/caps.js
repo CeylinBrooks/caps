@@ -1,10 +1,12 @@
 'use strict';
 
+require('dotenv').config();
 const PORT = process.env.PORT || 3000; 
-const io = require('socket.io')(PORT);
+const caps = require('socket.io')(PORT);
 
-io.on('connection', socket => {
-  console.log('connected', socket.id);
+caps.on('connection', (socket) => {
+  console.log('connected', `${socket.id} is connected!`);
+  socket.on('pick-up', (payload) =>
 });
 
 const caps = io.of('/caps');
@@ -28,7 +30,3 @@ function logger(event, payload) {
   console.log({ timeStamp, event, payload});
 }
 
-// const events = require('.events.js');
-
-// require('./events/driver.js')
-// require('.store-vendor.js')
